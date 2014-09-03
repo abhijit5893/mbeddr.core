@@ -18,5 +18,14 @@
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="7019451652828886383" nodeInfo="ng" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2763029999492920395" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="InlineInterpreterCondition" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="7cx9.2763029999492802015" resolveInfo="AbstractInterpreterCondition" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2763029999492920401" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="expected" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="2763029999492920399" nodeInfo="ng" />
+  </root>
 </model>
 
