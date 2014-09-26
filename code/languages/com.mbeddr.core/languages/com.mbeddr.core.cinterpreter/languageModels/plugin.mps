@@ -31,6 +31,7 @@
   <import index="v2t2" modelUID="f:java_stub#b0f8641f-bd77-4421-8425-30d9088a82f7#org.apache.commons.lang3(org.apache.commons/org.apache.commons.lang3@java_stub)" version="-1" implicit="yes" />
   <root type="3673.ConditionalInterpreter" typeId="3673.8511326569641492070" id="2763029999531514663" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CPointerInterpreter" />
+    <property name="category" nameId="3673.8426159527444241399" value="CInterpreter" />
     <node role="applicableLanguages" roleId="3673.7019451652830298090" type="3673.ApplicableLanguage" typeId="3673.7019451652830285943" id="2763029999531514666" nodeInfo="ng">
       <node role="language" roleId="3673.7019451652831666945" type="tp25.ModelReferenceExpression" typeId="tp25.559557797393017698" id="2763029999531514667" nodeInfo="nn">
         <property name="fqName" nameId="tp25.559557797393041554" value="com.mbeddr.core.point" />
@@ -201,6 +202,7 @@
   </root>
   <root type="3673.ConditionalInterpreter" typeId="3673.8511326569641492070" id="2763029999531433739" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CModulesInterpreter" />
+    <property name="category" nameId="3673.8426159527444241399" value="CInterpreter" />
     <node role="applicableLanguages" roleId="3673.7019451652830298090" type="3673.ApplicableLanguage" typeId="3673.7019451652830285943" id="2763029999531433749" nodeInfo="ng">
       <node role="language" roleId="3673.7019451652831666945" type="tp25.ModelReferenceExpression" typeId="tp25.559557797393017698" id="2763029999531433750" nodeInfo="nn">
         <property name="fqName" nameId="tp25.559557797393041554" value="com.mbeddr.core.mod" />
@@ -315,6 +317,7 @@
   </root>
   <root type="3673.ConditionalInterpreter" typeId="3673.8511326569641492070" id="2763029999502874730" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CInterpreter" />
+    <property name="category" nameId="3673.8426159527444241399" value="CInterpreter" />
     <node role="applicableLanguages" roleId="3673.7019451652830298090" type="3673.ApplicableLanguage" typeId="3673.7019451652830285943" id="2763029999502898017" nodeInfo="ng">
       <node role="language" roleId="3673.7019451652831666945" type="tp25.ModelReferenceExpression" typeId="tp25.559557797393017698" id="2763029999502898018" nodeInfo="nn">
         <property name="fqName" nameId="tp25.559557797393041554" value="com.mbeddr.core.base.st" />
@@ -2181,6 +2184,7 @@
   </root>
   <root type="3673.ConditionalInterpreter" typeId="3673.8511326569641492070" id="2763029999503898829" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CStatementInterpreter" />
+    <property name="category" nameId="3673.8426159527444241399" value="CInterpreter" />
     <node role="applicableLanguages" roleId="3673.7019451652830298090" type="3673.ApplicableLanguage" typeId="3673.7019451652830285943" id="2763029999503900054" nodeInfo="ng">
       <node role="language" roleId="3673.7019451652831666945" type="tp25.ModelReferenceExpression" typeId="tp25.559557797393017698" id="2763029999503900055" nodeInfo="nn">
         <property name="fqName" nameId="tp25.559557797393041554" value="com.mbeddr.core." />
@@ -2343,6 +2347,7 @@
   </root>
   <root type="3673.ConditionalInterpreter" typeId="3673.8511326569641492070" id="2763029999531599988" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CUdtInterpreter" />
+    <property name="category" nameId="3673.8426159527444241399" value="CInterpreter" />
     <node role="applicableLanguages" roleId="3673.7019451652830298090" type="3673.ApplicableLanguage" typeId="3673.7019451652830285943" id="2763029999531599991" nodeInfo="ng">
       <node role="language" roleId="3673.7019451652831666945" type="tp25.ModelReferenceExpression" typeId="tp25.559557797393017698" id="2763029999531599992" nodeInfo="nn">
         <property name="fqName" nameId="tp25.559557797393041554" value="com.mbeddr.core.u" />
@@ -2484,6 +2489,7 @@
   </root>
   <root type="3673.ConditionalInterpreter" typeId="3673.8511326569641492070" id="2763029999531417537" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CLegacyInterpreter" />
+    <property name="category" nameId="3673.8426159527444241399" value="CInterpreter" />
     <node role="applicableLanguages" roleId="3673.7019451652830298090" type="3673.ApplicableLanguage" typeId="3673.7019451652830285943" id="2763029999531417540" nodeInfo="ng">
       <node role="language" roleId="3673.7019451652831666945" type="tp25.ModelReferenceExpression" typeId="tp25.559557797393017698" id="2763029999531417541" nodeInfo="nn">
         <property name="fqName" nameId="tp25.559557797393041554" value="com.mbeddr.core.legacy.structure" />
@@ -2525,6 +2531,7 @@
   </root>
   <root type="3673.ConditionalInterpreter" typeId="3673.8511326569641492070" id="2763029999503980108" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CFunctionInterpreter" />
+    <property name="category" nameId="3673.8426159527444241399" value="CInterpreter" />
     <node role="applicableLanguages" roleId="3673.7019451652830298090" type="3673.ApplicableLanguage" typeId="3673.7019451652830285943" id="2763029999503980488" nodeInfo="ng">
       <node role="language" roleId="3673.7019451652831666945" type="tp25.ModelReferenceExpression" typeId="tp25.559557797393017698" id="2763029999503980489" nodeInfo="nn">
         <property name="fqName" nameId="tp25.559557797393041554" value="com.mbeddr.core.mod" />
@@ -2621,6 +2628,7 @@
   </root>
   <root type="3673.ConditionalInterpreter" typeId="3673.8511326569641492070" id="2763029999503988907" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CExtInterpreter" />
+    <property name="category" nameId="3673.8426159527444241399" value="CInterpreter" />
     <node role="applicableLanguages" roleId="3673.7019451652830298090" type="3673.ApplicableLanguage" typeId="3673.7019451652830285943" id="2763029999503990379" nodeInfo="ng">
       <node role="language" roleId="3673.7019451652831666945" type="tp25.ModelReferenceExpression" typeId="tp25.559557797393017698" id="2763029999503990380" nodeInfo="nn">
         <property name="fqName" nameId="tp25.559557797393041554" value="com.mbeddr.core.base.ut" />
