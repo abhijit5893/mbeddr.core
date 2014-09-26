@@ -2306,8 +2306,8 @@
                 <link role="link" roleId="tp25.1138056516764" targetNodeId="mj1l.318113533128716676" />
               </node>
             </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="2763029999503962122" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ywuz.3579539476335421482" resolveInfo="isConst" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="154741453023731739" nodeInfo="nn">
+              <link role="property" roleId="tp25.1138056395725" targetNodeId="mj1l.2941277002445651368" resolveInfo="const" />
             </node>
           </node>
           <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2763029999503906923" nodeInfo="nn">
