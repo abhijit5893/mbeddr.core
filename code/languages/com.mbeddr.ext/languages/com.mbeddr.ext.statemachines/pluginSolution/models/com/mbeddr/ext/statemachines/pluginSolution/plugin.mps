@@ -38,11 +38,18 @@
   </root>
   <root type="4w5v.ProjectionModeSwitcher" typeId="4w5v.3897771026684493688" id="3897771026690227816" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="statemachineTables" />
+    <property name="pushNothing" nameId="4w5v.3897771026684496947" value="true" />
+    <property name="nothingLabel" nameId="4w5v.6445798029994313462" value="Statemachines Textually" />
     <link role="requiredConcept" roleId="4w5v.8575378964582005791" targetNodeId="clqz.5778488248013533809" resolveInfo="Statemachine" />
     <node role="options" roleId="4w5v.8575378964581602954" type="4w5v.PushHintOption" typeId="4w5v.3897771026684496949" id="3897771026690227817" nodeInfo="ng">
       <property name="menuLabel" nameId="4w5v.3897771026684565063" value="Statemachines as Tables" />
       <link role="hintCollection" roleId="4w5v.3897771026684508452" targetNodeId="know.373648484609175116" resolveInfo="statemachineStuff" />
       <link role="hint" roleId="4w5v.3897771026684508454" targetNodeId="know.373648484609180247" resolveInfo="table" />
+    </node>
+    <node role="options" roleId="4w5v.8575378964581602954" type="4w5v.PushHintOption" typeId="4w5v.3897771026684496949" id="756037882091269589" nodeInfo="ng">
+      <property name="menuLabel" nameId="4w5v.3897771026684565063" value="Statemachines Graphically" />
+      <link role="hintCollection" roleId="4w5v.3897771026684508452" targetNodeId="know.373648484609175116" resolveInfo="statemachineStuff" />
+      <link role="hint" roleId="4w5v.3897771026684508454" targetNodeId="know.756037882055594245" resolveInfo="graphical" />
     </node>
     <node role="modification" roleId="4w5v.8575378964581617586" type="tp4k.ModificationStatement" typeId="tp4k.1203092361741" id="3897771026690269634" nodeInfo="ng">
       <link role="modifiedGroup" roleId="tp4k.1203092736097" targetNodeId="d244.295213795664246603" resolveInfo="mbeddrPlatformProjectionModeGroup" />
