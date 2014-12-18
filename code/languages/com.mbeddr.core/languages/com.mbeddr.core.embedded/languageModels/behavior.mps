@@ -24,11 +24,6 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
-    <language id="00000000-0000-0000-0000-000000000000" name="">
-      <concept id="0" name="" flags="ng" index="00000">
-        <child id="0" name="nodeToBreak" index="00000" />
-      </concept>
-    </language>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
       <concept id="1225194240794" name="jetbrains.mps.lang.behavior.structure.ConceptBehavior" flags="ng" index="13h7C7">
         <reference id="1225194240799" name="concept" index="13h7C2" />
@@ -138,7 +133,9 @@
       </concept>
     </language>
     <language id="ebb5e132-d298-4649-b320-b3f4d7f3acff" name="com.mbeddr.core.debug.blext">
-      <concept id="1389340506572349111" name="com.mbeddr.core.debug.blext.structure.BreakOnNodeStatement" flags="ng" index="1P2rdz" />
+      <concept id="1389340506572349111" name="com.mbeddr.core.debug.blext.structure.BreakOnNodeStatement" flags="ng" index="1P2rdz">
+        <child id="1389340506572349280" name="nodeToBreak" index="1P2raO" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -946,10 +943,10 @@
       <ref role="13i0hy" to="exl8:1d7Vth$qIHR" resolve="contributeRunToNodeStrategies" />
       <node concept="3Tm1VV" id="2h5hmpsyQA$" role="1B3o_S" />
       <node concept="3clFbS" id="2h5hmpsyQA_" role="3clF47">
-        <node concept="1P2rdz" id="2h5hmpsyQAA" role="3cqZAp">
-          <node concept="2OqwBi" id="2h5hmpsKtPw" role="00000">
-            <node concept="13iPFW" id="2h5hmpsKtCS" role="2Oq$k0" />
-            <node concept="3TrEf2" id="7FgMBfg9A1c" role="2OqNvi">
+        <node concept="1P2rdz" id="5NJixIpEdDN" role="3cqZAp">
+          <node concept="2OqwBi" id="5NJixIpEdXa" role="1P2raO">
+            <node concept="13iPFW" id="5NJixIpEdIY" role="2Oq$k0" />
+            <node concept="3TrEf2" id="5NJixIpEeIu" role="2OqNvi">
               <ref role="3Tt5mk" to="nbyu:SwwM9UHwwK" />
             </node>
           </node>

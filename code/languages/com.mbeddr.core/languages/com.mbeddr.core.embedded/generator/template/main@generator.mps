@@ -170,9 +170,6 @@
         <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
       </concept>
       <concept id="7830515785164762753" name="jetbrains.mps.lang.generator.structure.MappingConfiguration_Condition" flags="in" index="avzCv" />
-      <concept id="1114729360583" name="jetbrains.mps.lang.generator.structure.CopySrcListMacro" flags="ln" index="2b32R4">
-        <child id="1168278589236" name="sourceNodesQuery" index="2P8S$" />
-      </concept>
       <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="7830515785164764091" name="condition" index="avys_" />
@@ -266,7 +263,6 @@
       <concept id="6437088627575722830" name="com.mbeddr.core.modules.structure.ImplementationModule" flags="ng" index="N3F5e" />
       <concept id="6437088627575724001" name="com.mbeddr.core.modules.structure.Function" flags="ng" index="N3Fnx" />
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
-      <concept id="5950410542643524492" name="com.mbeddr.core.modules.structure.FunctionCall" flags="ng" index="3O_q_g" />
       <concept id="6610873504380357354" name="com.mbeddr.core.modules.structure.GlobalVarRef" flags="ng" index="1S7827" />
       <concept id="6610873504380335822" name="com.mbeddr.core.modules.structure.GlobalVariableDeclaration" flags="ng" index="1S7NMz" />
     </language>
@@ -356,7 +352,6 @@
       <concept id="7892328519581699353" name="com.mbeddr.core.expressions.structure.VoidType" flags="ng" index="19Rifw" />
       <concept id="22102029902365709" name="com.mbeddr.core.expressions.structure.AssignmentExpr" flags="ng" index="3pqW6w" />
       <concept id="8860443239512128103" name="com.mbeddr.core.expressions.structure.NumberLiteral" flags="ng" index="3TlMh9" />
-      <concept id="8860443239512128094" name="com.mbeddr.core.expressions.structure.TrueLiteral" flags="ng" index="3TlMhK" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -402,31 +397,9 @@
           <node concept="N3Fnx" id="to$mQWqpWe" role="00000">
             <property role="00000" value="isr" />
             <node concept="3XIRFW" id="to$mQWqpWf" role="00000">
-              <node concept="1_9egQ" id="to$mQWqpWg" role="00000">
-                <node concept="3TlMhK" id="to$mQWqpWh" role="00000" />
-                <node concept="2b32R4" id="to$mQWqpWi" role="00000">
-                  <node concept="3JmXsc" id="to$mQWqpWj" role="2P8S$">
-                    <node concept="3clFbS" id="to$mQWqpWk" role="2VODD2">
-                      <node concept="3clFbF" id="to$mQWqpWl" role="3cqZAp">
-                        <node concept="2OqwBi" id="to$mQWqpWm" role="3clFbG">
-                          <node concept="2OqwBi" id="to$mQWqpWn" role="2Oq$k0">
-                            <node concept="3TrEf2" id="to$mQWqpWo" role="2OqNvi">
-                              <ref role="3Tt5mk" to="nbyu:SwwM9UHwwK" />
-                            </node>
-                            <node concept="30H73N" id="to$mQWqpWp" role="2Oq$k0" />
-                          </node>
-                          <node concept="3Tsc0h" id="to$mQWqpWq" role="2OqNvi">
-                            <ref role="3TtcxE" to="c4fa:3CmSUB7Fp_m" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+              <node concept="3XISUE" id="5NJixIpEg8r" role="00000" />
             </node>
             <node concept="19Rifw" id="to$mQWqpWr" role="00000">
-              <property role="00000" value="false" />
               <property role="00000" value="false" />
             </node>
             <node concept="raruj" id="to$mQWqpWD" role="00000" />
@@ -458,36 +431,9 @@
           <node concept="N3Fnx" id="to$mQWqpWO" role="00000">
             <property role="00000" value="isr" />
             <node concept="3XIRFW" id="to$mQWqpWP" role="00000">
-              <node concept="1_9egQ" id="to$mQWqpWQ" role="00000">
-                <node concept="3O_q_g" id="to$mQWqpWR" role="00000">
-                  <ref role="00000" node="to$mQWqpWO" resolve="isr" />
-                  <node concept="raruj" id="to$mQWqpWS" role="00000" />
-                  <node concept="1ZhdrF" id="to$mQWqpWT" role="00000">
-                    <property role="2qtEX8" value="function" />
-                    <property role="P3scX" value="00000000-0000-0000-0000-000000000000/0/0" />
-                    <node concept="3$xsQk" id="to$mQWqpWU" role="3$ytzL">
-                      <node concept="3clFbS" id="to$mQWqpWV" role="2VODD2">
-                        <node concept="3clFbF" id="to$mQWqpWW" role="3cqZAp">
-                          <node concept="2OqwBi" id="to$mQWqpWX" role="3clFbG">
-                            <node concept="2OqwBi" id="to$mQWqpWY" role="2Oq$k0">
-                              <node concept="3TrEf2" id="to$mQWqpWZ" role="2OqNvi">
-                                <ref role="3Tt5mk" to="nbyu:SwwM9UHCHC" />
-                              </node>
-                              <node concept="30H73N" id="to$mQWqpX0" role="2Oq$k0" />
-                            </node>
-                            <node concept="3TrcHB" id="to$mQWqpX1" role="2OqNvi">
-                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+              <node concept="3XISUE" id="5NJixIpEg8p" role="00000" />
             </node>
             <node concept="19Rifw" id="to$mQWqpX2" role="00000">
-              <property role="00000" value="false" />
               <property role="00000" value="false" />
             </node>
           </node>
@@ -587,7 +533,6 @@
               <node concept="3XIRlf" id="to$mQWqq22" role="00000">
                 <property role="00000" value="x" />
                 <node concept="26Vqqz" id="to$mQWqq23" role="00000">
-                  <property role="00000" value="false" />
                   <property role="00000" value="false" />
                 </node>
                 <node concept="3TlMh9" id="to$mQWqq24" role="00000">
@@ -910,7 +855,6 @@
             </node>
             <node concept="19Rifw" id="to$mQWqq48" role="00000">
               <property role="00000" value="false" />
-              <property role="00000" value="false" />
             </node>
           </node>
         </node>
@@ -994,7 +938,6 @@
               <node concept="3XIRlf" id="to$mQWqq4H" role="00000">
                 <property role="00000" value="x" />
                 <node concept="26Vqqz" id="to$mQWqq4I" role="00000">
-                  <property role="00000" value="false" />
                   <property role="00000" value="false" />
                 </node>
                 <node concept="3TlMh9" id="to$mQWqq4J" role="00000">
@@ -1272,7 +1215,6 @@
             </node>
             <node concept="19Rifw" id="to$mQWqq6C" role="00000">
               <property role="00000" value="false" />
-              <property role="00000" value="false" />
             </node>
           </node>
         </node>
@@ -1299,7 +1241,6 @@
               <property role="00000" value="reg" />
               <node concept="26Vqp4" id="to$mQWqq6M" role="00000">
                 <property role="00000" value="false" />
-                <property role="00000" value="false" />
               </node>
             </node>
           </node>
@@ -1310,13 +1251,11 @@
             </node>
           </node>
           <node concept="N3Fnx" id="35MepjzCUKf" role="00000">
-            <property role="00000" value="f" />
             <property role="00000" value="false" />
             <node concept="3XIRFW" id="35MepjzCUKh" role="00000">
               <node concept="3XIRlf" id="35MepjzCX7H" role="00000">
                 <property role="00000" value="x" />
                 <node concept="26Vqp4" id="35MepjzCX7F" role="00000">
-                  <property role="00000" value="false" />
                   <property role="00000" value="false" />
                 </node>
                 <node concept="2qmXGp" id="734bZEPMbyx" role="00000">
@@ -1374,7 +1313,6 @@
             </node>
             <node concept="19Rifw" id="35MepjzCUuW" role="00000">
               <property role="00000" value="false" />
-              <property role="00000" value="false" />
             </node>
           </node>
           <node concept="2NXPZ9" id="35MepjzCTb2" role="00000">
@@ -1428,7 +1366,6 @@
               <property role="00000" value="reg" />
               <node concept="26VqpV" id="to$mQWqq7z" role="00000">
                 <property role="00000" value="false" />
-                <property role="00000" value="false" />
               </node>
             </node>
           </node>
@@ -1463,7 +1400,6 @@
             <property role="00000" value="empty_1384770616860_3" />
           </node>
           <node concept="N3Fnx" id="35MepjzD08n" role="00000">
-            <property role="00000" value="f" />
             <property role="00000" value="false" />
             <node concept="3XIRFW" id="35MepjzD08p" role="00000">
               <node concept="1_9egQ" id="35MepjzD0u8" role="00000">
@@ -1527,7 +1463,6 @@
             </node>
             <node concept="19Rifw" id="35MepjzD04E" role="00000">
               <property role="00000" value="false" />
-              <property role="00000" value="false" />
             </node>
           </node>
         </node>
@@ -1581,13 +1516,11 @@
               <property role="00000" value="low" />
               <node concept="26Vqp4" id="to$mQWqq8x" role="00000">
                 <property role="00000" value="false" />
-                <property role="00000" value="false" />
               </node>
             </node>
             <node concept="1dpRTG" id="to$mQWqq8y" role="00000">
               <property role="00000" value="high" />
               <node concept="26Vqp4" id="to$mQWqq8z" role="00000">
-                <property role="00000" value="false" />
                 <property role="00000" value="false" />
               </node>
             </node>
@@ -1626,7 +1559,6 @@
             <property role="00000" value="empty_1348845436525_10" />
           </node>
           <node concept="N3Fnx" id="35MepjzD1Db" role="00000">
-            <property role="00000" value="f" />
             <property role="00000" value="false" />
             <node concept="3XIRFW" id="35MepjzD1Dd" role="00000">
               <node concept="1_9egQ" id="35MepjzD1Z$" role="00000">
@@ -1711,7 +1643,6 @@
             </node>
             <node concept="19Rifw" id="35MepjzD1_6" role="00000">
               <property role="00000" value="false" />
-              <property role="00000" value="false" />
             </node>
           </node>
           <node concept="2NXPZ9" id="1ki5dbBigSa" role="00000">
@@ -1731,13 +1662,11 @@
               <property role="00000" value="low" />
               <node concept="26Vqp4" id="to$mQWqq9m" role="00000">
                 <property role="00000" value="false" />
-                <property role="00000" value="false" />
               </node>
             </node>
             <node concept="1dpRTG" id="to$mQWqq9n" role="00000">
               <property role="00000" value="high" />
               <node concept="26Vqp4" id="to$mQWqq9o" role="00000">
-                <property role="00000" value="false" />
                 <property role="00000" value="false" />
               </node>
             </node>
@@ -1773,7 +1702,6 @@
             </node>
           </node>
           <node concept="N3Fnx" id="35MepjzCY4f" role="00000">
-            <property role="00000" value="f" />
             <property role="00000" value="false" />
             <node concept="3XIRFW" id="35MepjzCY4h" role="00000">
               <node concept="1_9egQ" id="35MepjzCYqA" role="00000">
@@ -1858,7 +1786,6 @@
             </node>
             <node concept="19Rifw" id="35MepjzCXNG" role="00000">
               <property role="00000" value="false" />
-              <property role="00000" value="false" />
             </node>
           </node>
           <node concept="2NXPZ9" id="to$mQWqqa6" role="00000">
@@ -1933,7 +1860,6 @@
       <node concept="fMItD" id="to$mQWqqcJ" role="00000">
         <property role="00000" value="registerSection" />
         <node concept="1sgJKc" id="to$mQWqqcK" role="00000">
-          <property role="00000" value="registerStruct" />
           <property role="00000" value="true" />
           <node concept="17Uvod" id="to$mQWqqcL" role="00000">
             <property role="2qtEX9" value="name" />
@@ -1954,7 +1880,6 @@
           <node concept="1dpRTG" id="to$mQWqqcS" role="00000">
             <property role="00000" value="low" />
             <node concept="26Vqp4" id="to$mQWqqcT" role="00000">
-              <property role="00000" value="true" />
               <property role="00000" value="false" />
               <node concept="29HgVG" id="to$mQWqqcU" role="00000">
                 <node concept="3NFfHV" id="to$mQWqqcV" role="3NFExx">
@@ -2019,7 +1944,6 @@
           <node concept="1dpRTG" id="to$mQWqqda" role="00000">
             <property role="00000" value="high" />
             <node concept="26Vqp4" id="to$mQWqqdb" role="00000">
-              <property role="00000" value="true" />
               <property role="00000" value="false" />
               <node concept="29HgVG" id="to$mQWqqdc" role="00000">
                 <node concept="3NFfHV" id="to$mQWqqdd" role="3NFExx">
@@ -2102,7 +2026,6 @@
           <property role="00000" value="empty_1343829361630_2" />
         </node>
         <node concept="1dpZge" id="to$mQWqqd$" role="00000">
-          <property role="00000" value="registerUnion" />
           <property role="00000" value="true" />
           <node concept="17Uvod" id="to$mQWqqd_" role="00000">
             <property role="2qtEX9" value="name" />
@@ -2123,7 +2046,6 @@
           <node concept="1dpRTG" id="to$mQWqqdG" role="00000">
             <property role="00000" value="reg" />
             <node concept="26VqpV" id="to$mQWqqdH" role="00000">
-              <property role="00000" value="true" />
               <property role="00000" value="false" />
               <node concept="29HgVG" id="to$mQWqqdI" role="00000">
                 <node concept="3NFfHV" id="to$mQWqqdJ" role="3NFExx">
@@ -2303,7 +2225,6 @@
         <property role="00000" value="empty_1348849343864_3" />
       </node>
       <node concept="1sgJKc" id="to$mQWqqeL" role="00000">
-        <property role="00000" value="registerGroupStruct" />
         <property role="00000" value="true" />
         <node concept="raruj" id="to$mQWqqeM" role="00000" />
         <node concept="17Uvod" id="to$mQWqqeN" role="00000">
@@ -2341,7 +2262,6 @@
         <node concept="1dpRTG" id="to$mQWqqf1" role="00000">
           <property role="00000" value="reg8" />
           <node concept="26Vqp4" id="to$mQWqqf2" role="00000">
-            <property role="00000" value="true" />
             <property role="00000" value="false" />
             <node concept="29HgVG" id="to$mQWqqf3" role="00000">
               <node concept="3NFfHV" id="to$mQWqqf4" role="3NFExx">
@@ -2534,7 +2454,6 @@
         </node>
       </node>
       <node concept="1S7NMz" id="to$mQWqqgd" role="00000">
-        <property role="00000" value="regGroup" />
         <property role="00000" value="true" />
         <node concept="1sgJKr" id="to$mQWqqge" role="00000">
           <ref role="00000" node="to$mQWqqeL" resolve="registerGroupStruct" />
