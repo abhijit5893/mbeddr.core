@@ -1520,7 +1520,7 @@
         </node>
         <node concept="3_J27D" id="64lKJ2vAIlO" role="Nbhlr">
           <node concept="3Mxwew" id="64lKJ2vAIlP" role="3MwsjC">
-            <property role="3MwjfP" value="com.mbeddr.mbeddr-debuggerTesting.zip" />
+            <property role="3MwjfP" value="com.mbeddr.debuggerTesting.zip" />
           </node>
         </node>
       </node>
