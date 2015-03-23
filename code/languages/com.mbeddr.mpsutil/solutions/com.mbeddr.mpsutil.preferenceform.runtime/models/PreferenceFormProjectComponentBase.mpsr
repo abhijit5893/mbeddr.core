@@ -92,6 +92,10 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1170075670744" name="jetbrains.mps.baseLanguage.structure.SynchronizedStatement" flags="nn" index="1HWtB8">
+        <child id="1170075728144" name="expression" index="1HWFw0" />
+        <child id="1170075736412" name="block" index="1HWHxc" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
@@ -230,19 +234,26 @@
       <node concept="3Tm1VV" id="1mUhPOUQBeY" role="1B3o_S" />
       <node concept="3cqZAl" id="1mUhPOUQBeZ" role="3clF45" />
       <node concept="3clFbS" id="1mUhPOUQBfm" role="3clF47">
-        <node concept="3clFbF" id="1mUhPOUQBoQ" role="3cqZAp">
-          <node concept="2OqwBi" id="1mUhPOUQBTb" role="3clFbG">
-            <node concept="37vLTw" id="1mUhPOUQBoO" role="2Oq$k0">
-              <ref role="3cqZAo" node="1mUhPOUQ_46" resolve="componentToProject" />
-            </node>
-            <node concept="kI3uX" id="1mUhPOUQChD" role="2OqNvi">
-              <node concept="2OqwBi" id="1mUhPOUQCju" role="kIiFs">
-                <node concept="Xjq3P" id="1mUhPOUQCir" role="2Oq$k0" />
-                <node concept="2OwXpG" id="1mUhPOUQCt1" role="2OqNvi">
-                  <ref role="2Oxat5" node="X7OD3WrVYi" resolve="project" />
+        <node concept="1HWtB8" id="1mUhPOV1p1L" role="3cqZAp">
+          <node concept="3clFbS" id="1mUhPOV1p1N" role="1HWHxc">
+            <node concept="3clFbF" id="1mUhPOUQBoQ" role="3cqZAp">
+              <node concept="2OqwBi" id="1mUhPOUQBTb" role="3clFbG">
+                <node concept="37vLTw" id="1mUhPOUQBoO" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1mUhPOUQ_46" resolve="componentToProject" />
+                </node>
+                <node concept="kI3uX" id="1mUhPOUQChD" role="2OqNvi">
+                  <node concept="2OqwBi" id="1mUhPOUQCju" role="kIiFs">
+                    <node concept="Xjq3P" id="1mUhPOUQCir" role="2Oq$k0" />
+                    <node concept="2OwXpG" id="1mUhPOUQCt1" role="2OqNvi">
+                      <ref role="2Oxat5" node="X7OD3WrVYi" resolve="project" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="37vLTw" id="1mUhPOV1p3U" role="1HWFw0">
+            <ref role="3cqZAo" node="1mUhPOUQ_46" resolve="componentToProject" />
           </node>
         </node>
         <node concept="3clFbF" id="1mUhPOUQBfp" role="3cqZAp">
@@ -290,14 +301,21 @@
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="getComponent" />
       <node concept="3clFbS" id="1mUhPOUQz3L" role="3clF47">
-        <node concept="3clFbF" id="1mUhPOUQAe9" role="3cqZAp">
-          <node concept="3EllGN" id="1mUhPOUQAvS" role="3clFbG">
-            <node concept="37vLTw" id="1mUhPOUQAwW" role="3ElVtu">
-              <ref role="3cqZAo" node="1mUhPOUQ$P$" resolve="project" />
+        <node concept="1HWtB8" id="1mUhPOV1oRQ" role="3cqZAp">
+          <node concept="3clFbS" id="1mUhPOV1oRS" role="1HWHxc">
+            <node concept="3cpWs6" id="1mUhPOV1oXH" role="3cqZAp">
+              <node concept="3EllGN" id="1mUhPOV1oXJ" role="3cqZAk">
+                <node concept="37vLTw" id="1mUhPOV1oXK" role="3ElVtu">
+                  <ref role="3cqZAo" node="1mUhPOUQ$P$" resolve="project" />
+                </node>
+                <node concept="37vLTw" id="1mUhPOV1oXL" role="3ElQJh">
+                  <ref role="3cqZAo" node="1mUhPOUQ_46" resolve="componentToProject" />
+                </node>
+              </node>
             </node>
-            <node concept="37vLTw" id="1mUhPOUQAe8" role="3ElQJh">
-              <ref role="3cqZAo" node="1mUhPOUQ_46" resolve="componentToProject" />
-            </node>
+          </node>
+          <node concept="37vLTw" id="1mUhPOV1oTe" role="1HWFw0">
+            <ref role="3cqZAo" node="1mUhPOUQ_46" resolve="componentToProject" />
           </node>
         </node>
       </node>
