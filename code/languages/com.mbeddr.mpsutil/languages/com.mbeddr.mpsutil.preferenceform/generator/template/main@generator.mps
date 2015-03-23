@@ -3840,8 +3840,8 @@
                   <ref role="3cqZAo" node="1mUhPOUR4Yh" resolve="project" />
                 </node>
               </node>
-              <node concept="3uibUv" id="1mUhPOUR5w6" role="10QFUM">
-                <ref role="3uigEE" node="X7OD3WwKWK" resolve="MyApplicationPreferenceComponent" />
+              <node concept="3uibUv" id="1mUhPOUWllP" role="10QFUM">
+                <ref role="3uigEE" node="hB4myvK" resolve="MyProjectPreferenceComponent" />
               </node>
             </node>
           </node>

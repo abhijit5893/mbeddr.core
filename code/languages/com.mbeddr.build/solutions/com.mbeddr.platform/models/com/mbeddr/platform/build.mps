@@ -5000,12 +5000,6 @@
               <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
             </node>
           </node>
-          <node concept="1SiIV0" id="46uejXd36hj" role="3bR37C">
-            <node concept="3bR9La" id="46uejXd36hk" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" to="ffeo:7YI57w6K0nr" resolve="jetbrains.mps.lang.plugin#1203080439937" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="1rYz9YXoyMQ" role="3bR37C">
             <node concept="3bR9La" id="1rYz9YXoyMR" role="1SiIV1">
               <property role="3bR36h" value="false" />
