@@ -210,6 +210,9 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
+        <property id="8355037393041754995" name="isNative" index="2aFKle" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -239,9 +242,6 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
-      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
-        <reference id="1116615189566" name="classifier" index="3VsUkX" />
-      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
         <property id="1200397540847" name="charConstant" index="1XhdNS" />
@@ -3824,6 +3824,40 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2YIFZL" id="1mUhPOUR49b" role="jymVt">
+      <property role="TrG5h" value="getComponent" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="1mUhPOUR49e" role="3clF47">
+        <node concept="3clFbF" id="1mUhPOUR58R" role="3cqZAp">
+          <node concept="1eOMI4" id="1mUhPOUR5eT" role="3clFbG">
+            <node concept="10QFUN" id="1mUhPOUR5eU" role="1eOMHV">
+              <node concept="2YIFZM" id="1mUhPOUR5eR" role="10QFUP">
+                <ref role="37wK5l" to="rh18:1mUhPOUQzqd" resolve="getComponent" />
+                <ref role="1Pybhc" to="rh18:X7OD3WrUxa" resolve="PreferenceFormProjectComponentBase" />
+                <node concept="37vLTw" id="1mUhPOUR5eS" role="37wK5m">
+                  <ref role="3cqZAo" node="1mUhPOUR4Yh" resolve="project" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="1mUhPOUR5w6" role="10QFUM">
+                <ref role="3uigEE" node="X7OD3WwKWK" resolve="MyApplicationPreferenceComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1mUhPOUR2Cc" role="1B3o_S" />
+      <node concept="3uibUv" id="1mUhPOUR44s" role="3clF45">
+        <ref role="3uigEE" node="hB4myvK" resolve="MyProjectPreferenceComponent" />
+      </node>
+      <node concept="37vLTG" id="1mUhPOUR4Yh" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="1mUhPOUR4Yg" role="1tU5fm">
+          <ref role="3uigEE" to="b2mh:~Project" resolve="Project" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="4vnGofEtFve" role="jymVt" />
     <node concept="3clFb_" id="hI36sv$" role="jymVt">
       <property role="TrG5h" value="saveState" />
@@ -6285,52 +6319,50 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="59Slv24bq_W" role="3cqZAp">
-          <node concept="2OqwBi" id="59Slv24djz9" role="3clFbG">
-            <node concept="37vLTw" id="3GM_nagTtkr" role="2Oq$k0">
+        <node concept="3clFbF" id="1mUhPOUQZ8v" role="3cqZAp">
+          <node concept="2YIFZM" id="1mUhPOUQZe7" role="3clFbG">
+            <ref role="37wK5l" to="rh18:1mUhPOUQzqd" resolve="getComponent" />
+            <ref role="1Pybhc" to="rh18:X7OD3WrUxa" resolve="PreferenceFormProjectComponentBase" />
+            <node concept="37vLTw" id="1mUhPOUQZeV" role="37wK5m">
               <ref role="3cqZAo" node="2TmYHHddRBZ" resolve="project" />
-              <node concept="29HgVG" id="2TmYHHddRC6" role="lGtFl">
-                <node concept="3NFfHV" id="2TmYHHddRC7" role="3NFExx">
-                  <node concept="3clFbS" id="2TmYHHddRC8" role="2VODD2">
-                    <node concept="3clFbF" id="2TmYHHddRC9" role="3cqZAp">
-                      <node concept="2OqwBi" id="2TmYHHddRCa" role="3clFbG">
-                        <node concept="3TrEf2" id="28iHQuQmTS5" role="2OqNvi">
+              <node concept="29HgVG" id="1mUhPOUQZeW" role="lGtFl">
+                <node concept="3NFfHV" id="1mUhPOUQZeX" role="3NFExx">
+                  <node concept="3clFbS" id="1mUhPOUQZeY" role="2VODD2">
+                    <node concept="3clFbF" id="1mUhPOUQZeZ" role="3cqZAp">
+                      <node concept="2OqwBi" id="1mUhPOUQZf0" role="3clFbG">
+                        <node concept="3TrEf2" id="1mUhPOUQZf1" role="2OqNvi">
                           <ref role="3Tt5mk" to="tpee:hqOq$gm" />
                         </node>
-                        <node concept="30H73N" id="2TmYHHddRCb" role="2Oq$k0" />
+                        <node concept="30H73N" id="1mUhPOUQZf2" role="2Oq$k0" />
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="liA8E" id="59Slv24dk8W" role="2OqNvi">
-              <ref role="37wK5l" to="vsqj:~Project.getComponent(java.lang.Class):java.lang.Object" resolve="getComponent" />
-              <node concept="3VsKOn" id="59Slv24bs0r" role="37wK5m">
-                <ref role="3VsUkX" to="rh18:X7OD3WrUxa" resolve="PreferenceFormProjectComponentBase" />
-                <node concept="1ZhdrF" id="59Slv24bs0s" role="lGtFl">
-                  <property role="2qtEX8" value="classifier" />
-                  <node concept="3$xsQk" id="59Slv24bs0t" role="3$ytzL">
-                    <node concept="3clFbS" id="59Slv24bs0u" role="2VODD2">
-                      <node concept="3clFbF" id="59Slv24bs0v" role="3cqZAp">
-                        <node concept="2OqwBi" id="59Slv24bs0w" role="3clFbG">
-                          <node concept="1iwH7S" id="59Slv24bs0x" role="2Oq$k0" />
-                          <node concept="1iwH70" id="59Slv24bs0y" role="2OqNvi">
-                            <ref role="1iwH77" node="86yKXFR9bE" resolve="generatedPreferenceComponent" />
-                            <node concept="2OqwBi" id="28iHQuQmI7t" role="1iwH7V">
-                              <node concept="1PxgMI" id="28iHQuQmHW5" role="2Oq$k0">
-                                <ref role="1PxNhF" to="3iid:86yKXFVk5m" resolve="GetPreferenceFormInProjectOperation" />
-                                <node concept="2OqwBi" id="59Slv24bs0z" role="1PxMeX">
-                                  <node concept="30H73N" id="59Slv24bs0$" role="2Oq$k0" />
-                                  <node concept="3TrEf2" id="28iHQuQmHzO" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="tpee:hqOqNr4" />
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="3TrEf2" id="28iHQuQmIM7" role="2OqNvi">
-                                <ref role="3Tt5mk" to="3iid:86yKXFVl2p" />
+            <node concept="raruj" id="1mUhPOUR06e" role="lGtFl" />
+            <node concept="1ZhdrF" id="1mUhPOUR06f" role="lGtFl">
+              <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700937/1144433194310" />
+              <property role="2qtEX8" value="classConcept" />
+              <node concept="3$xsQk" id="1mUhPOUR06g" role="3$ytzL">
+                <node concept="3clFbS" id="1mUhPOUR06h" role="2VODD2">
+                  <node concept="3clFbF" id="1mUhPOUR0dF" role="3cqZAp">
+                    <node concept="2OqwBi" id="1mUhPOUR0dG" role="3clFbG">
+                      <node concept="1iwH7S" id="1mUhPOUR0dH" role="2Oq$k0" />
+                      <node concept="1iwH70" id="1mUhPOUR0dI" role="2OqNvi">
+                        <ref role="1iwH77" node="86yKXFR9bE" resolve="generatedPreferenceComponent" />
+                        <node concept="2OqwBi" id="1mUhPOUR0dJ" role="1iwH7V">
+                          <node concept="1PxgMI" id="1mUhPOUR0dK" role="2Oq$k0">
+                            <ref role="1PxNhF" to="3iid:86yKXFVk5m" resolve="GetPreferenceFormInProjectOperation" />
+                            <node concept="2OqwBi" id="1mUhPOUR0dL" role="1PxMeX">
+                              <node concept="30H73N" id="1mUhPOUR0dM" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="1mUhPOUR0dN" role="2OqNvi">
+                                <ref role="3Tt5mk" to="tpee:hqOqNr4" />
                               </node>
                             </node>
+                          </node>
+                          <node concept="3TrEf2" id="1mUhPOUR0dO" role="2OqNvi">
+                            <ref role="3Tt5mk" to="3iid:86yKXFVl2p" />
                           </node>
                         </node>
                       </node>
@@ -6339,7 +6371,6 @@
                 </node>
               </node>
             </node>
-            <node concept="raruj" id="59Slv24e2vb" role="lGtFl" />
           </node>
         </node>
       </node>

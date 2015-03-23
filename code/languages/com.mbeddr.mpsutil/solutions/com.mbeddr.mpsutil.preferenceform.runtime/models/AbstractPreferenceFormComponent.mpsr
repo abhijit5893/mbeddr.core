@@ -307,7 +307,6 @@
       </node>
       <node concept="3Tm1VV" id="4vnGofEDRto" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="4vnGofEDQQI" role="jymVt" />
     <node concept="3clFb_" id="X7OD3WwKZ0" role="jymVt">
       <property role="TrG5h" value="getStateObject" />
       <property role="1EzhhJ" value="true" />
