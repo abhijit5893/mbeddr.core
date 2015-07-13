@@ -993,6 +993,9 @@
     <node concept="PrWs8" id="aFniQEyCj4" role="PzmwI">
       <ref role="PrY4T" node="4ZVDCZCa$xx" resolve="IOrdered" />
     </node>
+    <node concept="PrWs8" id="1nTCJdU6VU6" role="PzmwI">
+      <ref role="PrY4T" node="4ZVDCZCaQ86" resolve="INumber" />
+    </node>
   </node>
   <node concept="1TIwiD" id="x3lYGTyxH3">
     <property role="3GE5qa" value="types.basic" />
@@ -1016,6 +1019,15 @@
     <property role="R4oN_" value="size_t to represent sizes" />
     <property role="34LRSv" value="size_t" />
     <ref role="1TJDcQ" node="7FQByU3CrCS" resolve="PrimitiveType" />
+    <node concept="PrWs8" id="1PMTxQdVbzz" role="PzmwI">
+      <ref role="PrY4T" node="67O0HaCtjdR" resolve="IUnsigned" />
+    </node>
+    <node concept="PrWs8" id="7PpDuQ6LgnW" role="PzmwI">
+      <ref role="PrY4T" node="4ZVDCZCa$xx" resolve="IOrdered" />
+    </node>
+    <node concept="PrWs8" id="1nTCJdU6TEs" role="PzmwI">
+      <ref role="PrY4T" node="4ZVDCZCaQ86" resolve="INumber" />
+    </node>
   </node>
   <node concept="PlHQZ" id="hEaDaGor63">
     <property role="TrG5h" value="ITyped" />
